@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Crashlytics</string>
+
+    <string name="com.appsee.apikey" translatable="false">842cc7f1755147de82cd1675c1fa4850</string>
+</resources>

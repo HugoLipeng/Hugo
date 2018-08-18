@@ -1,0 +1,71 @@
+apply plugin: 'com.android.application'
+apply plugin: 'im.fir.plugin.gradle' // 必填
+
+fir{
+//必填 上传 fir.im apk 字段，否则无法上传 APP 到 fir.im
+    apiToken '3bd5ab8c223e70b7bc223bf05f4cc0e6'
+
+//可选 上传fir.im 中显示的changelog
+    changeLog '替换为你的更新日志'
+}
+
+
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.3"
+
+    defaultConfig {
+        applicationId "com.devilwwj.bugly"
+        minSdkVersion 14
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+
+        ndk {
+            //设置支持的SO库架构
+            abiFilters 'armeabi' //, 'x86', 'armeabi-v7a', 'x86_64', 'arm64-v8a'
+        }
+    }
+
+    //配置keystore签名
+    signingConfigs {
+        release {
+            storeFile file("buglydemo.jks")
+            storePassword "buglydemo"
+            keyAlias "buglydemo"
+            keyPassword "buglydemo"
+        }
+    }
+    buildTypes {
+        debug {
+            signingConfig signingConfigs.debug
+        }
+        //需要添加 release 配置
+        release {
+            //混淆配置打开时，才会自动上传符号表到 BugHD
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            //需要使用正式证书签名，才能发布到fir.im
+            signingConfig signingConfigs.release
+        }
+    }
+
+
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile 'com.tencent.bugly:crashreport:latest.release'
+    //其中latest.release指代最新版本号，也可以指定明确的版本号，例如2.1.5
+    compile 'com.tencent.bugly:nativecrashreport:latest.release'
+    //其中latest.release指代最新版本号，也可以指定明确的版本号，例如2.2.0
+    compile files('libs/devilwwj.jar')
+}

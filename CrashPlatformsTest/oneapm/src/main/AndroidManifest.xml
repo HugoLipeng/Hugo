@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.devilwwj.oneapm">
+
+    <!--发送性能数据到服务器需要该权限-->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!--发送性能数据到服务器需要该权限-->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!--sdk读取设备识别码需要该权限-->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!--【非必选】若想知道 Crash 的时候，后台有哪些任务运行，请引入该权限-->
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CrashPlatformsTest.iml" filepath="$PROJECT_DIR$/CrashPlatformsTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bughd/bughd.iml" filepath="$PROJECT_DIR$/bughd/bughd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bugly/bugly.iml" filepath="$PROJECT_DIR$/bugly/bugly.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bugsnag/bugsnag.iml" filepath="$PROJECT_DIR$/bugsnag/bugsnag.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bugtags/bugtags.iml" filepath="$PROJECT_DIR$/bugtags/bugtags.iml" />
+      <module fileurl="file://$PROJECT_DIR$/crasheye/crasheye.iml" filepath="$PROJECT_DIR$/crasheye/crasheye.iml" />
+      <module fileurl="file://$PROJECT_DIR$/crashlytics/crashlytics.iml" filepath="$PROJECT_DIR$/crashlytics/crashlytics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hockeysdk/hockeysdk.iml" filepath="$PROJECT_DIR$/hockeysdk/hockeysdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mta/mta.iml" filepath="$PROJECT_DIR$/mta/mta.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oneapm/oneapm.iml" filepath="$PROJECT_DIR$/oneapm/oneapm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testin/testin.iml" filepath="$PROJECT_DIR$/testin/testin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/umeng/umeng.iml" filepath="$PROJECT_DIR$/umeng/umeng.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,1 @@
+include ':bugly', ':testin', ':bughd', ':umeng', ':bugsnag', ':oneapm', ':mta', ':bugtags', ':crasheye', ':hockeysdk', ':crashlytics'

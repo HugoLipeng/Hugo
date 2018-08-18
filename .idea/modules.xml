@@ -2,7 +2,27 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ActivityLaunchMode/ActivityLaunchMode.iml" filepath="$PROJECT_DIR$/ActivityLaunchMode/ActivityLaunchMode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ActivityLifeCicle/ActivityLifeCicle.iml" filepath="$PROJECT_DIR$/ActivityLifeCicle/ActivityLifeCicle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AndroidMVPDemo/AndroidMVPDemo.iml" filepath="$PROJECT_DIR$/AndroidMVPDemo/AndroidMVPDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AntBuildTest/AntBuildTest.iml" filepath="$PROJECT_DIR$/AntBuildTest/AntBuildTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BlockCanaryDemo/BlockCanaryDemo.iml" filepath="$PROJECT_DIR$/BlockCanaryDemo/BlockCanaryDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BuglyDemo/BuglyDemo.iml" filepath="$PROJECT_DIR$/BuglyDemo/BuglyDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ChoreographerCallbackTest/ChoreographerCallbackTest.iml" filepath="$PROJECT_DIR$/ChoreographerCallbackTest/ChoreographerCallbackTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CrashPlaformsTest/CrashPlaformsTest.iml" filepath="$PROJECT_DIR$/CrashPlaformsTest/CrashPlaformsTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CrashStackRetrace/CrashStackRetrace.iml" filepath="$PROJECT_DIR$/CrashStackRetrace/CrashStackRetrace.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GlideDemo/GlideDemo.iml" filepath="$PROJECT_DIR$/GlideDemo/GlideDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GradlePluginTest/GradlePluginTest.iml" filepath="$PROJECT_DIR$/GradlePluginTest/GradlePluginTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HotfixDemo/HotfixDemo.iml" filepath="$PROJECT_DIR$/HotfixDemo/HotfixDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/Hugo.iml" filepath="$PROJECT_DIR$/Hugo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ImagePick/ImagePick.iml" filepath="$PROJECT_DIR$/ImagePick/ImagePick.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JNIDemo/JNIDemo.iml" filepath="$PROJECT_DIR$/JNIDemo/JNIDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JNIOnloadDemo/JNIOnloadDemo.iml" filepath="$PROJECT_DIR$/JNIOnloadDemo/JNIOnloadDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MultiDexTset/MultiDexTset.iml" filepath="$PROJECT_DIR$/MultiDexTset/MultiDexTset.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyApplication/MyApplication.iml" filepath="$PROJECT_DIR$/MyApplication/MyApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RecyclerViewDemo/RecyclerViewDemo.iml" filepath="$PROJECT_DIR$/RecyclerViewDemo/RecyclerViewDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SwipeRefreshLayoutDemo/SwipeRefreshLayoutDemo.iml" filepath="$PROJECT_DIR$/SwipeRefreshLayoutDemo/SwipeRefreshLayoutDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UploadLibToJCenter/UploadLibToJCenter.iml" filepath="$PROJECT_DIR$/UploadLibToJCenter/UploadLibToJCenter.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/pili_sever/pili_sever.iml" filepath="$PROJECT_DIR$/pili_sever/pili_sever.iml" />
     </modules>

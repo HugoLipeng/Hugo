@@ -8,8 +8,8 @@ import java.util.Date;
 
 public class myClass {
     // Replace with your keys here
-    private static final String ACCESS_KEY = "abc"; //填入你自己的ACCESS_KEY
-    private static final String SECRET_KEY = "acd";  //填入你自己的SECRET_KEY
+    private static final String ACCESS_KEY = "Ib4CRWyIRVGHilI8ECRjlilTUsrUUvVah5jjtVPg"; //填入你自己的ACCESS_KEY
+    private static final String SECRET_KEY = "nUEVMeT9xVhwOZdb2nKQc2jno7hyAM_0nf26LEbC";  //填入你自己的SECRET_KEY
     // Replace with your hub name
     private static final String HUB_NAME = "lipengv2"; // 填入你们自己的直播空间名称
     private static Meeting meeting;
@@ -25,8 +25,8 @@ public class myClass {
 
         // create room with name
         try {
-            String roomName = "test12Room";
-            String r1 =  meeting.createRoom("123",roomName,12);
+            String roomName = "3000101";
+            String r1 =  meeting.createRoom("3000101",roomName,12);
 
 
             Meeting.Room room = meeting.getRoom(roomName);
@@ -39,7 +39,7 @@ public class myClass {
 
 
         try {
-            String token = meeting.roomToken("room1", "123", "admin", new Date(1785600000000L));
+            String token = meeting.roomToken("3000101", "3000101", "admin", new Date(15285152380000L));
             System.out.println("token==>  "+token);
         } catch (Exception e) {
             e.printStackTrace();

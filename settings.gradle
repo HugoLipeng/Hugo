@@ -1,1 +1,1 @@
-include ':app', ':pili_sever'
+include ':app', ':pili_sever','ImagePick','ActivityLaunchMode','ActivityLifeCircle','AndroidMVPDemo','AntBuildTest','BlockCanaryDemo','BuglyDemo','ChoreographerCallbackTest','CrashPlatformsTest','CrashStackRetrace','GlideDemo','GradlePluginTest','HotfixDemo','JNIDemo','JNIOnloadDemo','MultiDexTest','MyApplication','RecyclerViewDemo','SwipeRefreshLayoutDemo','SwipeRefreshLayoutDemo','UploadLibToJCenter'

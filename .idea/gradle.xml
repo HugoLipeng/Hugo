@@ -8,6 +8,26 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/ActivityLaunchMode" />
+            <option value="$PROJECT_DIR$/ActivityLifeCicle" />
+            <option value="$PROJECT_DIR$/AndroidMVPDemo" />
+            <option value="$PROJECT_DIR$/AntBuildTest" />
+            <option value="$PROJECT_DIR$/BlockCanaryDemo" />
+            <option value="$PROJECT_DIR$/BuglyDemo" />
+            <option value="$PROJECT_DIR$/ChoreographerCallbackTest" />
+            <option value="$PROJECT_DIR$/CrashPlaformsTest" />
+            <option value="$PROJECT_DIR$/CrashStackRetrace" />
+            <option value="$PROJECT_DIR$/GlideDemo" />
+            <option value="$PROJECT_DIR$/GradlePluginTest" />
+            <option value="$PROJECT_DIR$/HotfixDemo" />
+            <option value="$PROJECT_DIR$/ImagePick" />
+            <option value="$PROJECT_DIR$/JNIDemo" />
+            <option value="$PROJECT_DIR$/JNIOnloadDemo" />
+            <option value="$PROJECT_DIR$/MultiDexTset" />
+            <option value="$PROJECT_DIR$/MyApplication" />
+            <option value="$PROJECT_DIR$/RecyclerViewDemo" />
+            <option value="$PROJECT_DIR$/SwipeRefreshLayoutDemo" />
+            <option value="$PROJECT_DIR$/UploadLibToJCenter" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/pili_sever" />
           </set>
